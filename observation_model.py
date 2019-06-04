@@ -13,7 +13,7 @@ import torch
 import torch.nn as nn
 from torch import distributions
 
-from operators import base_grid_generator3d, translate, SliceExctractor
+from operators import base_grid_generator3d, Translate, SliceExctractor
 
 
 class ScientificImagingObservationModel(nn.Module):
@@ -43,7 +43,8 @@ class ScientificImagingObservationModel(nn.Module):
         self.base_slice = nn.Parameter(base_grid_generator3d((self.batch_size, 2, self.D, self.D, self.D)),
                                        requires_grad=False)
         self.extract_slice = SliceExctractor(limit=self.D, batch_size=self.batch_size)
-        self.translate = translate(self.batch_size, self.D)
+        self.translate = Translate(self.batch_size, self.D)
+
 
     def forward(self, protein_samples, rotation_samples, translation_samples):
         r"""Module forward method.
