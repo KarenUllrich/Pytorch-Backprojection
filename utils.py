@@ -74,6 +74,7 @@ def plot_fourier2real(I, name, instance=0, save=True):
                     transparent=True,
                     pad_inches=0)
     else:
+        print("Real part (signal):")
         plt.show()
     plt.close('all')
 
@@ -86,6 +87,7 @@ def plot_fourier2real(I, name, instance=0, save=True):
                     transparent=True,
                     pad_inches=0)
     else:
+        print("Imaginary part (This should be zero):")
         plt.show()
     plt.close('all')
     plt.show()
