@@ -26,7 +26,7 @@ try:
 except:
     fftmod = n.fft
     USINGFFTW = False
-    print("ERROR LOADING FFTW! USING NUMPY")
+    print("WARNING: COULD NOT LOAD FFTW! USING NUMPY.")
     fft_threads = None
 
 real_t = n.float32

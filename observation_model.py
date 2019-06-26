@@ -88,4 +88,4 @@ class ScientificImagingObservationModel(nn.Module):
         # Why is there a factor math.sqrt(2)? This relates to the question how white noise in the real domain
         # relates to the Fourier domain. This post explains it in detail:
         # https://dsp.stackexchange.com/questions/24170/what-is-the-statistics-of-the-discrete-fourier-transform-of-white-gaussian-noise
-        # WARNING: You should not sample from this ddistribution since the noise would not be restircted to a real signal!
+        # WARNING: You should not sample from this distribution since the noise would not be restircted to a real signal!

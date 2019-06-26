@@ -5,6 +5,7 @@ Pytorch implementation of differntiable **orthogonal integral projection** (back
 [Differentiable probabilistic models of scientific imaging with the Fourier slice theorem](https://arxiv.org/abs/1906.07582)  (UAI 2019)
 Karen Ullrich, Rianne van den Berg,  Marcus A. Brubaker, David Fleet, Max Welling
 
+
 ### Requirements
 
 The requirements for the conda environment in which we have tested this code are started in `requirements.txt`.
@@ -26,12 +27,6 @@ We provide a light introduction to scientific imaging in the jupyter-notebook `c
 ### Maintenance
 
 Please be warned that this repository is not going to be maintained regularly.
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
-    <source src="./chimeraX_vis.mp4" type="video/mp4">
-  </video>
-</figure>
 
 ### Cite
 
