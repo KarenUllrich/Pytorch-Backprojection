@@ -2,7 +2,7 @@
 
 Pytorch implementation of differntiable **orthogonal integral projection** (backprojection) operator in Fourier space, based on our paper:
 
-[Differentiable probabilistic models of scientific imaging with the Fourier slice theorem](https://link)  (UAI 2019)
+[Differentiable probabilistic models of scientific imaging with the Fourier slice theorem](https://arxiv.org/abs/1906.07582)  (UAI 2019)
 Karen Ullrich, Rianne van den Berg,  Marcus A. Brubaker, David Fleet, Max Welling
 
 ### Requirements
@@ -21,11 +21,17 @@ And used by
 	source activate backprojection
 	```
 ### Usage
-We provide a light introduction to scientific imaging in the jupyter-notebook `tutorial.ipynb`.  Specifically the generative model of scientific imaging `observation_model.py` might proof useful for any applications that involve **orthogonal integral projection**.
+We provide a light introduction to scientific imaging in the jupyter-notebook `cryo-tutorial.ipynb`.  Specifically the generative model of scientific imaging `observation_model.py` might prove useful for any application that involves **orthogonal integral projection**.
 
 ### Maintenance
 
 Please be warned that this repository is not going to be maintained regularly.
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="path/to/poster_image.png">
+    <source src="./chimeraX_vis.mp4" type="video/mp4">
+  </video>
+</figure>
 
 ### Cite
 
